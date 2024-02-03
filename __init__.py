@@ -20,7 +20,6 @@ model_path = os.path.join(current_dir, "isnetis.onnx")
 if not os.path.exists(model_path):
     huggingface_hub.hf_hub_download(
         "skytnt/anime-seg",
-        "isnetis.onnx",
         local_dir=model_path,
     )
 rmbg_model = rt.InferenceSession(model_path, providers=ort_providers["CPU"])
