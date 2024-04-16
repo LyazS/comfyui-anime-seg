@@ -11,7 +11,7 @@ git clone https://github.com/LyazS/comfyui-anime-seg.git
 pip install -r requirements.txt
 ```
 
-1. Download the `isnetis.onnx` model from [here](https://huggingface.co/skytnt/anime-seg/tree/main), and put it in the `custom_nodes/comfyui-anime-seg/models` directory.
+1. Download the `isnetis.onnx` model from [here](https://huggingface.co/skytnt/anime-seg/tree/main), and put it in the `custom_nodes/comfyui-anime-seg/model` directory.
 
 # Usage
 Create a "mask/Anime Character Seg" node, and connect the images to input, and it would segment the anime character and output the masks.
