@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-anime-seg"
+description = "A Anime Character Segmentation node for comfyui, based on [this hf space](https://huggingface.co/spaces/skytnt/anime-remove-background)."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["opencv-python", "onnxruntime", "onnx", "numpy", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/LyazS/comfyui-anime-seg"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-anime-seg"
+Icon = ""
